@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Rusjanto | Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <span class="loader-text">U</span>
+            <span class="loader-text">R</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">Hargieve<span>.</span></a>
+        
+        <div class="header-btns">
+            <i class='bx bx-moon' id="theme-icon"></i>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I am <span>Muhammad Umar Rusjanto</span></h3>
+            <h1><span class="typing"></span></h1>
+            <div class="social-icons">
+                <a href="https://github.com/hargieve" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://instagram.com/umarrsjnt" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="fotoin.jpeg" alt="Umar Rusjanto">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="Foto.jpeg" alt="Umar Rusjanto">
+            </div>
+            <div class="about-content">
+                <h3>Informatics Engineer</h3>
+                <p>I am a dedicated Informatics Engineering student at ITS Surabaya. I specialize in crafting efficient solutions using C++ and Python, focusing on building high-performance systems.</p>
+                <p><strong>Education:</strong> Sepuluh Nopember Institute of Technology (ITS)</p>
+                <p><strong>Location:</strong> Balikpapan, Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skill-card">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C/C++</h3>
+                <p>System optimization and hardware interaction.</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bxl-python'></i>
+                <h3>Python</h3>
+                <p>Automation, data logic, and backend development.</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-code-block'></i>
+                <h3>Algorithms</h3>
+                <p>Crafting efficient logic for software performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="project2.png" alt="Project 1">
+                <div class="project-layer">
+                    <h4>Website Programming</h4>
+                    <p>CRUD (Create, Read, Update, Delete) functionality.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" id="user_name" placeholder="Full Name" required>
+                <input type="email" id="user_email" placeholder="Email Address" required>
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2026 by Muhammad Umar Rusjanto | All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
